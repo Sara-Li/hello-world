@@ -20,3 +20,13 @@ steps of creating ajax request:
       }
     }
   }
+  5.wirte server service
+  <?php
+  $uname = $_GET['username'];
+  $pw = $_GET['password'];
+  if($uname == 'admin' && $pw=='hft'){
+    echo '1';
+  }else{
+    echo '2';
+  }
+  ?>
